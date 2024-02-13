@@ -1,13 +1,13 @@
 // Create a file `pure.scss` to override settings
 
 $light-theme: (
-  color-primary: rgb(14, 165, 233),
-  color-primary-dark: rgb(14, 165, 233),
-  color-primary-darker: rgb(14, 165, 233),
-  color-primary-darkest: rgb(14, 165, 233),
-  color-primary-light: rgb(14, 165, 233),
-  color-primary-lighter: rgb(14, 165, 233),
-  color-primary-lightest: rgb(14, 165, 233),
+  color-primary: rgb(130, 8, 27),
+  color-primary-dark: rgb(130, 8, 27),
+  color-primary-darker: rgb(130, 8, 27),
+  color-primary-darkest: rgb(130, 8, 27),
+  color-primary-light: rgb(130, 8, 27),
+  color-primary-lighter: rgb(130, 8, 27),
+  color-primary-lightest: rgb(130, 8, 27),
   color-background: rgb(255, 255, 255),
   navbar-background-color: #fff,
   background-surface-color: #fff,
@@ -15,17 +15,17 @@ $light-theme: (
 );
 
 $dark-theme: (
-  color-primary: rgb(56, 189, 248),
-  color-primary-dark: rgb(56, 189, 248),
-  color-primary-darker: rgb(56, 189, 248),
-  color-primary-darkest: rgb(56, 189, 248),
-  color-primary-light: rgb(56, 189, 248),
-  color-primary-lighter: rgb(56, 189, 248),
-  color-primary-lightest: rgb(56, 189, 248),
-  color-background: #0f172a,
-  navbar-background-color: rgba(15, 23, 42, 1),
-  background-surface-color: rgba(15, 23, 42, 1),
-  dropdown-background-color: rgb(36, 34, 46),
+  color-primary: rgb(231, 86, 107),
+  color-primary-dark: rgb(231, 86, 107),
+  color-primary-darker: rgb(231, 86, 107),
+  color-primary-darkest: rgb(231, 86, 107),
+  color-primary-light: rgb(231, 86, 107),
+  color-primary-lighter: rgb(231, 86, 107),
+  color-primary-lightest: rgb(231, 86, 107),
+  color-background: rgb(19, 19, 19),
+  navbar-background-color: rgb(24, 10, 11),
+  background-surface-color: rgb(42, 15, 15),
+  dropdown-background-color: rgb(46, 34, 34),
   code-background-color: rgba(255, 255, 255, 0.15),
 );
 
@@ -96,7 +96,7 @@ $dark-theme: (
 
 [data-theme="dark"] .navbar {
   backdrop-filter: blur(8px);
-  background-color: rgba(15, 23, 42, 0.6);
+  background-color: rgba(12, 11, 11, 0.6);
   border-bottom: rgba(248, 250, 252, 0.1) solid 1px;
   @include firefox-only {
     backdrop-filter: none;
