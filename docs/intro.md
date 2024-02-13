@@ -1,47 +1,43 @@
 ---
 sidebar_position: 1
 ---
+import Image from '@theme/IdealImage';
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# Getting Started
 
-## Getting Started
+Get started by **downloading the AVIS Engine Software** from AVIS Engine webiste **[avisengine.com](https://avisengine.com)**.
 
-Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+### Requirements
 
-### What you'll need
+- [Python](https://nodejs.org/en/download/) version 3.6 or above.
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+This is all you need to follow the rest of the tutorial.
 
-## Generate a new site
+## Run AVIS Engine
 
-Generate a new Docusaurus site using the **classic template**.
+To run AVIS Engine, follow these steps:
 
-The classic template will automatically be added to your project after you run the command:
+1. Download the AVIS Engine software from the [AVIS Engine website](https://avisengine.com).
 
-```bash
-npm init docusaurus@latest my-website classic
-```
+2. Unzip the downloaded file. 
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+3. Open the executable:
+  - On Windows, double-click the `avisengine.exe` file.
+  - On macOS, double-click the `avisengine.app` file.
+  - On Linux, double-click the `avisengine.x86_64`.
 
-## Start your site
+4. Choose a Track from the menu.
 
-Run the development server:
+5. Press the **Open Panel** to open up the control panel.
 
-```bash
-cd my-website
-npm run start
-```
+6. Navigate to the **Server** section and press the **Start** button, this will start the server on `127.0.0.1` and port `25001` by default.
+  - You can also enter your available server address and IP of choice in your local device and network.
 
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
+7. 🎉 Congratulations! You successfully installed AVIS Engine Simulation Server and are ready to start using it with a client, for this tutorials we're using the official AVIS Engine Python API since it is much easier to learn.
 
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
+You're ready to go to the next steps.
 
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+
