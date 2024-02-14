@@ -74,9 +74,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'AVIS Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'AVIS Docs Logo',
           src: 'img/avis.png',
         },
         items: [
