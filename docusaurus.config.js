@@ -110,8 +110,12 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'Instagram',
+                href: 'https://instagram.com/avisengine',
+              },
+              {
+                label: 'LinkedIn',
+                href: 'https://linkedin.com/in/company/avisengine',
               },
             ],
           },
